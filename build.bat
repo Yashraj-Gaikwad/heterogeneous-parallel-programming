@@ -2,6 +2,6 @@ cls
 del *.exe
 del *.exp
 del *.lib
-nvcc -o DevProp.exe DevProp.cu
-DevProp.exe
+nvcc -o MatMul.exe MatMul.cu
+MatMul.exe
 
