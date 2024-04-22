@@ -1,7 +1,5 @@
 cls
 del *.exe
-del *.exp
-del *.lib
-nvcc -o DevProp.exe DevProp.cu
+del *.obj
+cl.exe /EHsc /I . DevProp.c /link OpenCL.lib /SUBSYSTEM:CONSOLE
 DevProp.exe
-
